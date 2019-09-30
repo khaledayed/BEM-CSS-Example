@@ -4,7 +4,7 @@
   "description": "Using of Block-element-modifier standard for CSS class  names",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,12 @@
     "@fortawesome/fontawesome-free": "^5.11.2"
   },
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
   }
 }

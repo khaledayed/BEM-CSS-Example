@@ -1,0 +1,159 @@
+.container{
+    height:100vh;
+}
+
+//Product
+.product{
+  display: flex;
+  height: 100%;
+    &__photo--center{
+        background: #f2e5de;
+        flex-basis: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+        &__content{
+        flex: 1;
+        padding: 0px 30px
+    }
+    
+        &__title{
+        font-family: "Pragati Narrow", sans-serif;
+        font-size: 42px;
+        font-weight: normal;
+        text-transform: uppercase
+    
+    }
+        &__rating{
+            display: flex;
+        }
+        &__info{
+            margin-bottom: 20px;
+        }
+        
+        &__info--row{
+            border-bottom: 1px solid #ebebeb;
+        }
+        
+        &__info-label{
+            display: inline-block;
+            padding: 8px 0;
+            width: 180px;
+        
+        }
+        &__desc-title {
+            margin-bottom: 15px;
+        }
+}
+
+//Ratting
+.rating{
+    color: gray;
+        &__stars{
+            display: flex;
+            margin-right: 15px;
+        }
+        
+        &__star--filled{
+            color: yellow
+        }
+}
+
+
+.price{
+        &__current{
+            margin-bottom: 10px;
+            font-size: 45px;
+            color: #479fad;
+        }
+        
+        
+        &__old {
+            display: inline-block;
+            margin-right: 35px;
+            color: #252525;
+            text-decoration: line-through;
+        }
+        
+        &__actions {
+            display: flex;
+            margin-bottom: 20px;
+        }
+       &__save {
+            margin-right: 0.8rem;
+            flex-shrink: 0;
+        }
+}
+
+
+
+.btn{
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+        &--primary {
+            background-color: #55a32a;
+            transform: scale(1);
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+        
+        &--secondary {
+            background-color: #2d91a1;
+            transform: scale(1);
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+}
+
+//Socials Media
+.socials {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+        &__item:not(:last-child) {
+            margin-right: 5px;
+        }
+        
+        
+        &__link {
+            display: flex;
+            width: 30px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #000;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+        
+        &__link--fb {
+            background-color: #305891;
+        }
+        
+        &__link--tw {
+            background-color: #2ca8d2;
+        }
+        
+        &__link--g {
+            background-color: #c72e0b;
+        }
+}
+.title-small {
+    margin: 0;
+    font-size: 1rem;
+    color: #211f1f;
+}
+
