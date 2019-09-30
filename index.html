@@ -1,16 +1,18 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Example Mock with BEM CSS standard</title>
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Pragati+Narrow&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
-  <link ref="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Example Mock with BEM CSS standard</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Pragati+Narrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="product">
-            
+
             <div class="product__photo--center">
                 <img class="product--photo" src="./assets/photo.png">
             </div>
@@ -22,64 +24,66 @@
                         <i class="rating__star ratiing__star--filled fa fa-star"></i>
                         <i class="rating__star ratiing__star--filled fa fa-star"></i>
                         <i class="rating__star ratiing__star--filled fa fa-star"></i>
+                        <i class="rating__star   fa fa-star"></i>
                     </div>
-                
+
                     <span class="rating__count">122 reviews</span>
                     <a class="rating__add" href="#">Write a review</a>
                 </div>
-            
-            <div class="product__info">
-                <div class="product__info--row">
-                    <span class="product__info-label">Brand</span>
-                    <span class="product__info-row"> JBL </span>
+
+                <div class="product__info">
+                    <div class="product__info--row">
+                        <span class="product__info-label">Brand</span>
+                        <span class="product__info-row"> JBL </span>
+                    </div>
+                    <div class="product__info--row">
+                        <span class="product__info-label">Brand</span>
+                        <span class="product__info-row"> JBL </span>
+                    </div>
+                    <div class="product__info--row">
+                        <span class="product__info-label">Brand</span>
+                        <span class="product__info-row"> JBL </span>
+                    </div>
                 </div>
-                <div class="product__info--row">
-                    <span class="product__info-label">Brand</span>
-                    <span class="product__info-row"> JBL </span>
+                <div class="product__price price">
+                    <div class="price__current"> $98.00</div>
+                    <div class="price__info">
+                        <span class="price__old">$200.00</span>
+                        <span class="price__discount">You save 31%</span>
+                    </div>
+                    <div class="price__actions">
+                        <a class="price__save btn btn--primary" href="#">+ Save</a>
+                        <a class="price__buy btn btn--secondary btn--uppercase btn--wide" href="#">Buy Now</a>
+                    </div>
                 </div>
-                <div class="product__info--row">
-                    <span class="product__info-label">Brand</span>
-                    <span class="product__info-row"> JBL </span>
+                <div class="product__desc">
+                    <h3 class="product__desc-title title-small">Description</h3>
+                    <p class="product__text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+                        voluptatem modi officiis at dolorem libero reprehenderit quidem
+                        delectus iure facere.
+                    </p>
                 </div>
+                <ul class="product__socials socials">
+                    <li class="socials__item">
+                        <a class="socials__link socials__link--fb" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link socials__link--tw" href="#">
+                            <i class="icon fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link socials__link--g" href="#">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <div class="product__price price">
-                <div class="price__current"> $98.00</div>
-                <div class="price__info">
-                    <span class="price__old">$200.00</span>
-                    <span class="price__discount">You save 31%</span>
-                </div>
-                <div class="product__price actions">
-                    <a class="action__save btn btn--primary" href="#">+ Save</a>
-                    <a class="action__buy btn btn--secondary btn--uppercase btn--wide" href="#">Buy Now</a>
-                </div>
-            </div>
-            <div class="product__desc">
-                <h3 class="product__desc-title title-small">Description</h3>
-                <p class="product__text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                    voluptatem modi officiis at dolorem libero reprehenderit quidem
-                    delectus iure facere.  
-                </p>
-            </div>
-            <ul class="product__socials socilas">
-                <li class="socials__item">
-                    <a class="socials__link socials__link--fb" href="#">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                </li>
-                <li class="socials__item">
-                    <a class="socials__link socials__link--tw" href="#">
-                        <i class="icon fab fa-twitter"></i>
-                    </a>
-                </li>
-                <li class="socilas__item">
-                    <a class="socials__link socials__link--g" href="#">
-                        <i class="fab fa-google-plus-g"></i>
-                    </a>
-                </li>
-            </ul>
-         </div>
+        </div>
     </div>
-</div>
 </body>
+
 </html>

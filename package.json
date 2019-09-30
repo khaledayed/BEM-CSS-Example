@@ -18,5 +18,8 @@
   "homepage": "https://github.com/khaledayed/BEM-CSS-Example#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
   }
 }
