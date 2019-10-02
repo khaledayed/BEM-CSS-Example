@@ -1,13 +1,13 @@
 ### Example of use BEM CSS Naming (Block Element Modifier) to Integration websites.
 
-##BEM
+## BEM
 >BEM is a design methodology that helps you to create reusable components and code sharing in front-end development. — getbem.com
 
-##Run project
+## Run project
 ```js
 npm install
 npm run build
 ```
-##Mockup
+## Mockup
 
 ![mockup](media/mockup.png)
