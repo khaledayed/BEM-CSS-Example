@@ -20,7 +20,7 @@
     "@fortawesome/fontawesome-free": "^5.11.2"
   },
   "devDependencies": {
-    "lite-server": "^2.5.4",
+    "lite-server": "^2.6.1",
     "del": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
